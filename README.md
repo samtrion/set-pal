@@ -1,5 +1,7 @@
 # Description
-Script for automated placement of the Microsoft PartnerId in the azure user account
+Script for automated placement of the Microsoft PartnerId in the azure user account.
+
+This script has been run successfully on Windows systems and Azure Cloud Shell so far. Linux systems and MacOS systems are theoretically also executable, but without guarantee.
 
 ## How to execute on Windows
 1. Download `set-pal.ps1` file
