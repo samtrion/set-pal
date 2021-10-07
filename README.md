@@ -3,6 +3,10 @@ Script for automated placement of the Microsoft PartnerId in the azure user acco
 
 This script has been run successfully on Windows systems and Azure Cloud Shell so far. Linux systems and MacOS systems are theoretically also executable, but without guarantee.
 
+## Required Parameters
+- `partnerId` - Microsoft Partner Id. Please use your location Partner Id, not your Global Partner Id.
+- `partnerTenantId` - Microsoft Azure Tenant Id. This is the Home Azure Tenant Id of the user account. This is required if the Home Azure Tenant cannot be fully resolved at login, so it is requested as a preventive measure.
+
 ## How to execute on Windows
 1. Download `set-pal.ps1` file
 2. Open PowerShell Console
